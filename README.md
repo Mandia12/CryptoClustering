@@ -1,10 +1,10 @@
 # CryptoClustering
 
-Overview
+*Overview
 
 This project applies unsupervised machine learning techniques to cluster cryptocurrencies based on their market data. The goal is to identify patterns and relationships between different cryptocurrencies and gain insights into the crypto market.
 
-Dataset
+**Dataset
 
 The dataset used for this project is a CSV file containing market data for various cryptocurrencies, including:
 
