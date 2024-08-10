@@ -13,21 +13,20 @@ The dataset used for this project is a CSV file containing market data for vario
 
 ## Steps
 
-Data Normalization: The data is normalized using the StandardScaler module from scikit-learn.
-Elbow Method: The elbow method is used to find the optimal value for k (number of clusters) using the original scaled data.
-K-Means Clustering: The K-means algorithm is applied to the original scaled data with the optimal value for k to cluster the cryptocurrencies.
-PCA Dimensionality Reduction: The original scaled data is reduced to three principal components using Principal Component Analysis (PCA).
-Elbow Method (PCA): The elbow method is used to find the optimal value for k using the PCA data.
-K-Means Clustering (PCA): The K-means algorithm is applied to the PCA data with the optimal value for k to cluster the cryptocurrencies.
-Code
+1. Data Normalization: The data is normalized using the StandardScaler module from scikit-learn.
+2. Elbow Method: The elbow method is used to find the optimal value for k (number of clusters) using the original scaled data.
+3. K-Means Clustering: The K-means algorithm is applied to the original scaled data with the optimal value for k to cluster the cryptocurrencies.
+4. PCA Dimensionality Reduction: The original scaled data is reduced to three principal components using Principal Component Analysis (PCA).
+5. Elbow Method (PCA): The elbow method is used to find the optimal value for k using the PCA data.
+6. K-Means Clustering (PCA): The K-means algorithm is applied to the PCA data with the optimal value for k to cluster the cryptocurrencies.
 
 ## Tools:
 
-pandas for data manipulation and analysis
-scikit-learn for machine learning tasks
-hvPlot for data visualization
+* pandas for data manipulation and analysis
+* scikit-learn for machine learning tasks
+* hvPlot for data visualization
 
 The project produces two sets of results:
 
-Original Scaled Data: A scatter plot showing the clusters of cryptocurrencies based on the original scaled data.
+Original Scaled Data: A scatter plot showing the clusters of cryptocurrencies based on the original scaled data.  
 PCA Data: A scatter plot showing the clusters of cryptocurrencies based on the PCA data.
