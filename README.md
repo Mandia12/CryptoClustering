@@ -8,7 +8,7 @@ This project applies unsupervised machine learning techniques to cluster cryptoc
 
 The dataset used for this project is a CSV file containing market data for various cryptocurrencies, including:
 
-Coin IDs
+Coin IDs  
 Price change percentages for timesframes of 24h, 7d, 14d, 30d, 60d, 200d, and 1Y
 
 ## Steps
